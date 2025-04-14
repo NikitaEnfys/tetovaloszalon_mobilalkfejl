@@ -1,0 +1,1 @@
+# tetovaloszalon_mobilalkfejl
