@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592828807203",
+    "project_id": "inkturnejava",
+    "storage_bucket": "inkturnejava.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592828807203:android:4e20c37431c59e41cc9996",
+        "android_client_info": {
+          "package_name": "com.example.inkturnejava"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTXnbkuvlN7KR66pTpajAEyKcFNlZxbhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

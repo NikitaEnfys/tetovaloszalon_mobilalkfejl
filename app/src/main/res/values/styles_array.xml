@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tattoo_styles">
+        <item>minimal</item>
+        <item>realistic</item>
+        <item>traditional</item>
+        <item>japanese</item>
+        <item>geometric</item>
+    </string-array>
+</resources>

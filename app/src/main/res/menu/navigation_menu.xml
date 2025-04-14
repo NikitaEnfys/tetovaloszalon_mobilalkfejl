@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="Kezdőlap"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_appointments"
+        android:icon="@drawable/ic_appointments"
+        android:title="Foglalásaim"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_salons"
+        android:icon="@drawable/ic_tattoo"
+        android:title="Szalonok" />
+
+</menu>

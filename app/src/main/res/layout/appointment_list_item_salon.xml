@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/appointmentTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Időpont"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appointmentMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üzenet"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/appointmentUserEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foglaló emailje"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/appointmentStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Státusz: pending"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/acceptAppointmentButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Elfogadás" />
+
+        <Button
+            android:id="@+id/rejectAppointmentButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Elutasítás"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/cancelAppointmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemondás"
+            android:visibility="gone"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

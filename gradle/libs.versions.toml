@@ -1,0 +1,18 @@
+[versions]
+androidGradlePlugin = "8.8.1"
+googleServices = "4.4.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+
+[libraries]
+appcompat = "androidx.appcompat:appcompat:1.6.1"
+material = "com.google.android.material:material:1.12.0"
+activity = "androidx.activity:activity:1.9.0"
+constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+firebase-auth = "com.google.firebase:firebase-auth:22.3.1"
+firebase-firestore = "com.google.firebase:firebase-firestore:24.11.0"
+junit = "junit:junit:4.13.2"
+ext-junit = "androidx.test.ext:junit:1.1.5"
+espresso-core = "androidx.test.espresso:espresso-core:3.5.1"
